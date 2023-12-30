@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ProductController : ControllerBase
+public class ProductController : Controller
 {
     private readonly ProductServices _productServices;
 
@@ -17,7 +17,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = AppRole.Admin)]
+    [Authorize(Roles = AppRoleIdentity.Admin)]
     public async Task<IActionResult> Create([FromBody] ProductCategoryVM model)
     {
         var result = await _productServices.Create(model);
@@ -35,7 +35,7 @@ public class ProductController : ControllerBase
 
 
     [HttpGet]
-    [Authorize(Roles = AppRole.Customer )]
+    [Authorize(Roles = AppRoleIdentity.Customer )]
     public async Task<IActionResult> GetAll()
     {
         var result = await _productServices.GetAll();

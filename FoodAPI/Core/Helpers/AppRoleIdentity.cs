@@ -1,6 +1,6 @@
 ﻿namespace Core.Helpers
 {
-    public class AppRole
+    public class AppRoleIdentity
     {
         public const string Admin = "Administrator";
         public const string Customer = "Customer";

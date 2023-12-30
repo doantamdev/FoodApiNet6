@@ -2227,11 +2227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\FoodAPI\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Project\\FoodAPI\\Core\\Core.csproj",
+      "projectPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\FoodAPI\\Core\\obj\\",
+      "outputPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

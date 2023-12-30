@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Core.Helpers;
+using System.ComponentModel.DataAnnotations;
 
 namespace Core.Models
 {
-    public class Products
+    public class Products : BaseEntity
     {
         [Key]
         public int ID { get; set; }
@@ -10,9 +11,6 @@ namespace Core.Models
         public string? Name { get; set; }
         public string? Description { get; set; }
         public float? Price { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateTime? TimeDeleted { get; set; }
-
         public List<ProductCategory>? ProductCategories { get; set; }
     }
 }

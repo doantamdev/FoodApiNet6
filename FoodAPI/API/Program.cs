@@ -1,4 +1,4 @@
-using API.Repositories;
+
 using API.Services;
 using Core.Configurations;
 using Core.Models;
@@ -46,11 +46,14 @@ builder.Services.AddSwaggerGen(option =>
 });
 
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDBContext>()
-    .AddDefaultTokenProviders();
 
 
+builder.Services.AddIdentity<AppUser, AppRole>(options =>
+{
+    options.Password.RequireUppercase = false;
+}).AddEntityFrameworkStores<ApplicationDBContext>()
+.AddDefaultTokenProviders()
+.AddRoles<AppRole>();
 
 
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
@@ -65,8 +68,9 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 builder.Services.AddAutoMapper(typeof(Core.AutoMapper.AutoMapperProfile).Assembly);
 builder.Services.AddTransient<CategoryServices, CategoryServices>();
 builder.Services.AddTransient<ProductServices, ProductServices>();
+builder.Services.AddTransient<UserServices, UserServices>();
 
-builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+
 
 
 builder.Services.AddAuthentication(options => {

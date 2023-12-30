@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JVoarVJg8mTWoeG+LfNEe+hIzo4uptVfW6S+F2rMj6PKDlPyuigChL4cp0nvRBdMtfICNcB+rfAw5Xy5viqh8A==",
+  "dgSpecHash": "If+nd4LzGvkZpMMpkHYpOKaM/Y5fnQTlLPDF3e/eSttpoNP7Baa55gEMe7jEmfwlilN4wlIYOD42G5QWFIdTtw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\FoodAPI\\API\\API.csproj",
+  "projectFilePath": "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

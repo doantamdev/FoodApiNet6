@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\FoodAPI\\API\\API.csproj": {}
+    "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\FoodAPI\\API\\API.csproj": {
+    "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\FoodAPI\\API\\API.csproj",
+        "projectUniqueName": "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Project\\FoodAPI\\API\\API.csproj",
+        "projectPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\FoodAPI\\API\\obj\\",
+        "outputPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Project\\FoodAPI\\Core\\Core.csproj": {
-                "projectPath": "D:\\Project\\FoodAPI\\Core\\Core.csproj"
+              "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj": {
+                "projectPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj"
               }
             }
           }
@@ -110,14 +110,14 @@
         }
       }
     },
-    "D:\\Project\\FoodAPI\\Core\\Core.csproj": {
+    "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\FoodAPI\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Project\\FoodAPI\\Core\\Core.csproj",
+        "projectPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\FoodAPI\\Core\\obj\\",
+        "outputPath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

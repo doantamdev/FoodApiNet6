@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AdW/NI9TwmC2W0hVIDfA5MHSm1eYMjRMxczSYMgT0D9tzYrjh9nhXq0BZ3m8tPxadbKE2XEaUjgfGS4d0iwaqg==",
+  "dgSpecHash": "7nHeYRKFSMcF8u6IILbmT0lHB1nXi1APYdihF+8BKSyS1O4STXPR4riE+TFKO3UF2d4fBqA5HccUZJDmxmSNcw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\FoodAPI\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Project\\FoodApiNet6\\FoodAPI\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
